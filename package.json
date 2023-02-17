@@ -1,0 +1,23 @@
+{
+  "name": "calculator-with-sass",
+  "version": "1.0.0",
+  "description": "clculadora creada con html, sass y javascript",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css"
+  },
+  "keywords": [
+    "SASS",
+    "GULP"
+  ],
+  "author": "DeveroCode",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.0"
+  }
+}

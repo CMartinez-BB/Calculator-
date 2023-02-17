@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./build/css/app.css">
+    <title>Calculator || DeveroCode </title>
+</head>
+<body>
+
+
+    <section class="container_cont contenedor">
+        <div class="container_caja">
+            <div class="container__numero contenedor height">
+                <section class="screen contenedor">
+                    <div class="screen-text">
+                        <p class="screenResult">0</p>
+                    </div>
+                </section>
+                <div class="caja flex">
+                    <input type="button" class="numeros" value="1" onclick="impriNumero(1)">
+                    <input type="button" class="numeros" value="2" onclick="impriNumero(2)">
+                    <input type="button" class="numeros" value="3" onclick="impriNumero(3)">
+                    <input type="button" class="numeros" value="+" onclick="operations('+')">
+                </div>
+
+                <div class="caja2 flex">
+                    <input type="button" class="numeros" value="4" onclick="impriNumero(4)">
+                    <input type="button" class="numeros" value="5" onclick="impriNumero(5)">
+                    <input type="button" class="numeros" value="6" onclick="impriNumero(6)">
+                    <input type="button" class="numeros" value="-" onclick="operations('-')">
+                </div>
+
+                <div class="caja3 flex">
+                    <input type="button" class="numeros" value="7" onclick="impriNumero(7)">
+                    <input type="button" class="numeros" value="8" onclick="impriNumero(8)">
+                    <input type="button" class="numeros" value="9" onclick="impriNumero(9)">
+                    <input type="button" class="numeros" value="x" onclick="operations('x')">
+                </div>
+
+                <div class="caja4 flex">
+                    <input type="button" class="numeros r-1" value="0" onclick="impriNumero(0)">
+                    <input type="button" class="numeros" value="C" onclick="clearHTML()">
+                    <input type="button" class="numeros" value="/" onclick="operations('/')">
+                    <input type="button" class="numeros r-2" value="=" onclick="equals()">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Js -->
+    <script src="./assets/Js/app.js"></script>
+</body>
+</html>
